@@ -1,16 +1,23 @@
 @import 'base/variables'; 
 
-* {
-  font-family: 'Museo Sans Cyrl', sans-serif;
+head {
+  font-size: 10px;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
-.container {
-  position: relative;
-  max-width: 950px;
-  margin: 0 auto;
+body {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
-@import 'blocks/promo';
-@import 'blocks/header';
+
+
+// @import 'blocks/promo';
+// @import 'blocks/header';
 
 
 @import 'base/media';
