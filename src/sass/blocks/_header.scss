@@ -1,0 +1,44 @@
+header{
+  padding: 1rem 0rem 1rem 0rem;
+  .header__row{
+    display: flex;
+
+  }
+}
+.header__item{
+  display: flex;
+  justify-content: center;
+  margin-right: 1rem;
+  .header__icon{
+    width: 28px;
+    height: 21px;
+    margin-right: 1rem;
+    img{
+      width: 100%;
+    }
+  }
+  .header__descr{
+    width: 190px;
+    line-height: normal;
+    span{
+      font-size: .7em;
+      line-height: normal;
+      font-weight: 700;
+      color: #242424;
+    }
+    address, a{
+      font-size: .6em;
+      line-height: normal;
+      font-weight: 300;
+      margin: 0;
+      margin-top: .6rem;
+    }
+  }
+   address{
+      line-height: normal;
+  }
+  a{
+    color: #242424;
+    text-decoration: none;
+  }
+}
