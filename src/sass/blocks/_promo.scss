@@ -1,0 +1,46 @@
+.promo{
+  margin: 2.7rem 0rem;
+  &__wrapper{
+    width: 100%;
+    position: relative;
+    margin-top: 2.1rem;
+  }
+  &__img{
+    width: 100%;
+    img{
+      width: 100%;
+    }
+  }
+  &__text{
+    position:absolute;
+    left: 50%;
+    bottom: 20%;
+    transform: translateX(-50%);
+    font-size: .9em;
+    line-height: normal;
+    font-weight: 300;
+    color: #393939;
+    width: 264px;
+    text-align: center;
+    &_bold{
+      font-weight: 700;
+    }
+  }
+  &__icon{
+    margin: 2.8rem auto 1.5rem;
+    width: 100%;
+    img{
+      width: 100%;
+    }
+  }
+  &__title{
+    text-align: center;
+    h2{
+    margin: 0;
+    font-size: 2.4em;
+    line-height: normal;
+    font-weight: 700;
+    color: #393939;
+    }
+  }
+}
