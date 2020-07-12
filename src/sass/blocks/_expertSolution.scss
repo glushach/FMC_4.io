@@ -10,8 +10,11 @@
       color: #ffffff;
     }
   }
-  &__tabs{
-    height: 64px;
+  .carousel__wrapper{
+    min-height: 450px;
+  }
+  .nav{
+    min-height: 64px;
     margin-top: 1rem;
     list-style-type: none;
     display: flex;
@@ -22,53 +25,63 @@
     border: 1px solid #ffffff;
     border-radius: 5px;
   }
-  &__tab {
-    width: 172px;
+  .nav-link, .last-child{
+    width: 135px;
     height: 50px;
-    border-right: 1px solid #919393;
     cursor: pointer;
     transition: 0.5 all;
     display: flex;
     justify-content: center;
     align-items: center;
-    &:hover {
-      font-weight: 700;
-      color: #00c2f0;
-    }
+    padding: 0;
     font-size: .7em;
     line-height: normal;
     font-weight: 400;
     color: #ffffff;
     text-align: center;
   }
-  &__tab:nth-child(6){
-    border-right: none;
+  .last-child{
+    border-right: 1px solid transparent;
+  }
+  .last-child:hover{
+    text-decoration: none;
+  }
+  .nav-tabs .nav-link {
+  border-right: 1px solid #919393;
+}
+//убирает обводку
+  .nav-link:hover{
+    border: 1px solid transparent;
   }
 
-  .slider__wrapper{
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     background-color: rgba(#e1ded8, 0);
-    display: flex;
-    width: 100%;
+    color: #00c2f0;
+    border: 1px solid transparent;
+    border-right: 1px solid #919393;
   }
-  .mySlider{
-    width: 100%;
-    height: 560px;
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .last-child.active{
+    background-color: rgba(#e1ded8, 0);
+    color: #00c2f0;
+    border: 1px solid transparent;
   }
-  .mySlider-item{
-    position:absolute;
-    display: none;
-    width: 100%;
-    margin: 0 auto;
 
-    img{
-      width: 100%;
-    }
-  }
-  .mySlider-item.curry{
-    display: block;
-  }
+.carousel-inner{
+  margin-top: 2.2rem;
+  width: 85%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.carousel-control-next, .carousel-control-prev {
+  width: 8%;
+}
+.carousel-indicators li{
+  display: none;
+  background-color: rgba(#008000, 0.9);
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+
+
 }

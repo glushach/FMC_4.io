@@ -7,7 +7,12 @@
 }
 
 @media (max-width: 1199px){
-
+  .expertSolution .nav-tabs .nav-link {
+    border-right: 1px solid transparent;
+  }
+  .expertSolution .nav-tabs .nav-link.active {
+    border-right: 1px solid transparent;
+  }
 }
 
 @media (max-width: 991px){
@@ -30,6 +35,9 @@
       right: 41%;
     }
   }
+  .expertSolution .expertSolution__title h3{
+    font-size: 1.2em;
+  }
 }
 
 @media (max-width: 767px){
@@ -45,6 +53,16 @@
   .btn{
     width: 230px;
     height: 57px;
+  }
+
+  .expertSolution a {
+    display: none;
+  }
+  .expertSolution .carousel-indicators li{
+    display: block;
+  }
+  .expertSolution .expertSolution__title h3 {
+    font-size: 0.9em;
   }
 }
 
