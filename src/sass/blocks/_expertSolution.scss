@@ -1,5 +1,5 @@
 .expertSolution{
-  padding: 4.2rem 0rem 0rem 0rem;
+  padding: 4.2rem 0rem 5rem 0rem;
   background: url('../img/bg/bg-expertSolutions.jpg') center (center/cover) no-repeat;
   &__title{
    text-align: center;
@@ -10,9 +10,7 @@
       color: #ffffff;
     }
   }
-  .carousel__wrapper{
-    min-height: 450px;
-  }
+
   .nav{
     min-height: 64px;
     margin-top: 1rem;
