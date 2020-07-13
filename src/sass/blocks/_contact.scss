@@ -1,0 +1,23 @@
+.contact{
+  margin: 3rem 0rem;
+  &__images{
+    width: 100%;
+    img{
+    width: 33%;
+    display: block;
+    margin: 0 auto;
+    }
+  }
+  &__title{
+    margin: 2.5rem 0rem 1.1rem;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: normal;
+    font-weight: 900;
+    color: #393939;
+  }
+  &__button{
+    display: flex;
+    justify-content: center;
+  }
+}
