@@ -1,0 +1,73 @@
+.options{
+  padding-top: 2.5rem;
+  background: url('../../img/bg/bg-options/bg-options.jpg') center (center/cover) no-repeat;
+  &__wrapper{
+    width: 100%;
+    height: 260px;
+    position: relative;
+  }
+  &__title{
+    text-align: center;
+    h2{
+    font-size: 1.9rem;
+    line-height: normal;
+    font-weight: 900;
+    color: #ffffff;
+    margin: 0;
+    }
+  }
+  &__content{
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  &__subtitle{
+    h3{
+      text-transform: uppercase;
+      text-align: right;
+      font-size: 1.9rem;
+      line-height: normal;
+      font-weight: 900;
+      color: #ffffff;
+      margin: 0;
+      padding-right: 50px;
+      padding-left: 0px;
+    }
+    &_modifi{
+      h3{
+        text-align: left;
+        padding-left: 50px;
+        padding-right: 0px;
+      }
+    }
+  }
+  &__descr{
+    text-align: right;
+    font-size: .9em;
+    line-height: normal;
+    font-weight: 300;
+    color: #ffffff;
+    padding-right: 50px;
+    padding-left: 0px;
+    &_modifi{
+      text-align: left;
+      padding-left: 50px;
+      padding-right: 0px;
+    }
+  }
+  &__bg{
+    width: 167px;
+    height: 167px;
+    opacity: 0.3;
+    background-color: #00c2f0;
+    position:absolute;
+    top: 50%;
+    right: 9px;
+    transform: translateY(-50%);
+    z-index: 0;
+    &_modifi{
+      left: 9px;
+    }
+  }
+}

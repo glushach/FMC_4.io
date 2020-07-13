@@ -38,6 +38,16 @@
   .expertSolution .expertSolution__title h3{
     font-size: 1.2em;
   }
+
+  .options__title h2 {
+    font-size: 1.4rem;
+  }
+  .options__subtitle h3 {
+    font-size: 1.4rem;
+  }
+  .options__descr {
+    font-size: 0.8em;
+  }
 }
 
 @media (max-width: 767px){
@@ -104,5 +114,30 @@
   }
   .advantages__title h2{
     font-size: .9em;
+  }
+  .options__subtitle h3 {
+    font-size: 1.2rem;
+    padding-right: 10px;
+    padding-left: 0px;
+  }
+  .options__subtitle_modifi h3 {
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+  .options__descr {
+    padding-right: 10px;
+    padding-left: 0;
+  }
+  .options__descr_modifi {
+    padding-right: 0px;
+    padding-left: 10px;
+  }
+  .options__bg {
+    right: 0px;
+
+  }
+  .options__bg_modifi {
+    left: 0px;
+
   }
 }
