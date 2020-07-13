@@ -1,0 +1,41 @@
+.footer{
+  padding: 1.4rem 0rem 1.3rem;
+  background: #0082a1;
+  .block{
+    // &__item{}
+    &__title{
+      position: relative;
+      cursor: pointer;
+      padding-left: 30px;
+    }
+    &__title::before, &__title::after{
+      content: '';
+      width: 10px;
+      height: 1px;
+      background-color: #000000;
+      top: 10px;
+      position:absolute;
+      transition: all 0.3s ease 0s;
+    }
+    &__title::before{
+      transform: rotate(40deg);
+      left: 0;
+    }
+    &__title::after{
+      transform: rotate(-40deg);
+      left: 8px;
+    }
+    &__title.active::before, &__title.active::after{
+      background: red;
+    }
+    &__title.active::before {
+      transform: rotate(-40deg);
+    }
+    &__title.active::after{
+      transform: rotate(40deg);
+    }
+    &__text{
+      display: none;
+    }
+  }
+}
