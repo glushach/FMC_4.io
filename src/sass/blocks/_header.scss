@@ -1,8 +1,39 @@
 header{
   padding: 1rem 0rem 1rem 0rem;
+  .header__block{
+    position: relative;
+    cursor: pointer;
+    padding-left: 30px;
+  }
+  .header__block::before, .header__block::after{
+    content: '';
+    width: 10px;
+    height: 1px;
+    background-color: #000000;
+    top: 10px;
+    position:absolute;
+    transition: all 0.3s ease 0s;
+  }
+  .header__block::before{
+    transform: rotate(40deg);
+    left: 0;
+  }
+  .header__block::after{
+    transform: rotate(-40deg);
+    left: 8px;
+  }
+  .header__block.active::before, .header__block.active::after{
+    background: red;
+  }
+  .header__block.active::before {
+    transform: rotate(-40deg);
+  }
+  .header__block.active::after{
+    transform: rotate(40deg);
+  }
   .header__row{
-    display: flex;
-
+    // display: flex;
+    display: none;
   }
 }
 .header__item{

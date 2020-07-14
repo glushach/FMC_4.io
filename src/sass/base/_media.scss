@@ -48,6 +48,14 @@
   .options__descr {
     font-size: 0.8em;
   }
+  .footer{
+    .desctop{
+      display: none;
+    }
+    .block{
+      display: block;
+    }
+  }
 }
 
 @media (max-width: 767px){

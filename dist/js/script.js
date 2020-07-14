@@ -21,6 +21,10 @@ $(document).ready(function(){
     ]
   });
 
+  $('.header__block').click(function(header){
+    $(this).toggleClass('active').next().slideToggle(300);
+  });
+
   $('.block__title').click(function(event){
     if($('.block').hasClass('one')){
       $('.block__title').not($(this)).removeClass('active');

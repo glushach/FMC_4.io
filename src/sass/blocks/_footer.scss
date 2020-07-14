@@ -1,7 +1,51 @@
 .footer{
+  ul{
+    padding: 0px;
+  }
+  li{
+    list-style-type: none;
+  }
   padding: 1.4rem 0rem 1.3rem;
   background: #0082a1;
+  hr{
+    background: #ffffff
+  }
+  &__copy{
+    font-size: .65em;
+    line-height: normal;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+  }
+  &__logo{
+    width: 100%;
+    margin-top: .5rem;
+    margin-bottom: .8rem;
+    img{
+      width: 39%;
+    }
+  }
+
+  &__title, &__descr, &__list, .block__title, .block__text{
+    font-size: .7em;
+    line-height: normal;
+    font-weight: 300;
+    color: #ffffff;
+  }
+  &__title h4, .block__title h4{
+  font-size: 1.36em;
+  font-weight: 700;
+  }
   .block{
+    display: none;
+    &__logo{
+      width: 176px;
+      margin-top: .5rem;
+      margin-bottom: .8rem;
+      img{
+        width: 100%;
+      }
+    }
     // &__item{}
     &__title{
       position: relative;
