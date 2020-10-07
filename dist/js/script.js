@@ -8,8 +8,8 @@ $(document).ready(function(){
     // autoplaySpeed: 2000,
     fade: true,
     cssEase: 'linear',
-    prevArrow: '<button type="button" class="slick-prev"><img src="../icons/promoHeader-icon/prev-icon.png" ,alt=""></button>',
-    nextArrow: '<button type="button" class="slick-next"><img src="../icons/promoHeader-icon/next-icon.png" ,alt=""></button>',
+    prevArrow: '<button type="button" class="slick-prev"><img src="icons/promoHeader-icon/prev-icon.png" ,alt=""></button>',
+    nextArrow: '<button type="button" class="slick-next"><img src="icons/promoHeader-icon/next-icon.png" ,alt=""></button>',
     responsive: [
       {
         breakpoint: 768,
